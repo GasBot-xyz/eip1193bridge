@@ -1,0 +1,25 @@
+{
+  "name": "@gasbot/eip1193bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "author": "kadetXx",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "6.0.0",
+    "events": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
