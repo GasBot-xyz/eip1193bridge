@@ -1,5 +1,5 @@
 {
-  "name": "@gasbot/eip1193bridge",
+  "name": "eip1193bridge",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.mjs",
