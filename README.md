@@ -5,11 +5,11 @@ Experimental [eip1193Bridge](https://github.com/ethers-io/ethers.js/blob/ethers-
 ## Intallation
 
 ```
-yarn add @gasbot/eip1193bridge
+yarn add eip1193bridge
 ```
 
 or
 
 ```
-npm install @gasbot/eip1193bridge
+npm install eip1193bridge
 ```
