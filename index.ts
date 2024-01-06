@@ -2,7 +2,7 @@
 
 import {
   ErrorCode,
-  Signer,
+  JsonRpcSigner,
   UnsupportedOperationError,
   ethers,
   makeError,
@@ -11,10 +11,10 @@ import {
 import EventEmitter from "events";
 
 export class Eip1193Bridge extends EventEmitter {
-  readonly signer: Signer;
-  readonly provider: Signer["provider"];
+  readonly signer: JsonRpcSigner;
+  readonly provider: JsonRpcSigner["provider"];
 
-  constructor(signer: Signer, provider?: Signer["provider"]) {
+  constructor(signer: JsonRpcSigner, provider?: JsonRpcSigner["provider"]) {
     super();
     this.signer = signer;
     this.provider = provider ?? signer.provider;
