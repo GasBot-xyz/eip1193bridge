@@ -153,9 +153,7 @@ export class Eip1193Bridge extends EventEmitter {
 
         const args = { ...params![0] };
 
-        if (args.gas) {
-          delete args.gas;
-        }
+        delete args.gas;
 
         const tx = await this.signer.sendTransaction(args as any);
         return tx.hash;
