@@ -1,8 +1,6 @@
-# Eip1193Bridge
+# eip1193-bridge
 
-Experimental [eip1193Bridge](https://github.com/ethers-io/ethers.js/blob/ethers-v5-beta/packages/experimental/src.ts/eip1193-bridge.ts) implementation with support for Ethers V6 and (maybe) V5.
-
-This package provides an adapter to help legacy Ethereum providers conform to the newer EIP-1193 standard.
+Experimental [eip1193Bridge](https://github.com/ethers-io/ethers.js/blob/ethers-v5-beta/packages/experimental/src.ts/eip1193-bridge.ts) implementation with support for Ethers V6 and (maybe) V5. This package provides an adapter to help legacy Ethereum providers conform to the newer EIP-1193 standard.
 
 ## Installation
 
